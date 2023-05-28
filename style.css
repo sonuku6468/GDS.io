@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style the contact form section */
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-image: url(img/background.jpg);
+}
+
+#contact form input[type="text"],
+#contact form input[type="tel"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 250px;
+}
+
+#contact form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the benefits section */
+#benefits {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+#benefits ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#benefits ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the portfolio section */
+#portfolio {
+    padding: 40px;
+    text-align: center;
+}
+.portfolio-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.portfolio-images img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Style the testimonials section */
+#testimonials {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
